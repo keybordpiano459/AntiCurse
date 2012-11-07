@@ -1,0 +1,26 @@
+name: AntiCurse
+main: me.KeybordPiano459.AntiCurse.AntiCurse
+version: 1.1
+description: Stop those curses!
+author: KeybordPiano459
+commands:
+  jail:
+    description: Jail a player
+    permission: anticurse.jail
+permissions:
+  anticurse.*:
+    description: All AntiCurse Perms
+    default: op
+    children:
+      anticurse.exempt: true
+      anticurse.jail: true
+      anticurse.notify: true
+  anticurse.exempt:
+    description: Don't get kicked for swearing
+    default: op
+  anticurse.jail:
+    description: Access to /jail
+    default: op
+  anticurse.notify:
+    description: Get notified on cursing
+    default: op

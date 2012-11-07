@@ -1,0 +1,19 @@
+# AntiCurse | KeybordPiano459
+# Set messages to null if you don't want them
+# In all messages, %PLAYER% is replaced with the player name
+# jail-time is in minutes
+# deal-with-cursing is JAIL or KICK
+
+admin-msg: The player %PLAYER% has been kicked for swearing!
+broadcast-msg: null
+kick-msg: Don't Curse!
+jail-time: 5
+jail-x: 0
+jail-y: 0
+jail-z: 0
+jail-world: world
+deal-with-cursing: JAIL
+blacklisted-words:
+  - whatever
+  - you
+  - want
