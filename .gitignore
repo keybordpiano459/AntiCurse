@@ -1,6 +1,13 @@
-*.class
+# Mac filesystem dust
+.DS_Store
+.DS_Storetarget
+/target
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Eclipse
+/.classpath
+/.project
+/.settings
+/bin
+
+# Netbeans
+/nbproject
